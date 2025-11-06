@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.containerr {
+  display: flex;
+  flex-basis: wrap;
+  justify-content: center;
+}
+
+.sidebar {
+  flex: 20%;
+  background-color: #444;
+  height: 100vh;
+}
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  border-bottom: 1px dotted #5e5d5d;
+}
+
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 20px 20px;
+  background-color: #444;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.sidebar nav ul li a:hover {
+  background-color: #555;
+}
+
+section.content {
+  flex: 80%;
+  padding: 20px;
+  height: 100vh;
+  overflow: scroll;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+  padding: 15px 20px;
+}
+
+/* Tombol tambah */
+.add-button {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.add-button button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button button:hover {
+  background-color: #218838;
+}
+
+/* Gaya untuk tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #333;
+  color: white;
+}
+
+table img {
+  border-radius: 4px;
+}
+
+/* Tombol aksi */
+.edit-btn,
+.delete-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Gaya untuk form */
+form {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 1rem 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Styling tulisan di header kiri */
+.header-left {
+  font-weight: bold;
+}
+
+/* Styling area kanan (username + tombol logout) */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Tombol Logout */
+.btn-logout {
+  background-color: #d63031;
+  padding: 6px 12px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-logout:hover {
+  background-color: #b02a29;
+}
