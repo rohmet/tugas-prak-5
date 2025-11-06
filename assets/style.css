@@ -56,6 +56,10 @@ header {
   color: #fff;
   text-align: left;
   padding: 15px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Tombol tambah */
@@ -148,18 +152,6 @@ input[type="file"] {
   margin-bottom: 1rem;
   border: 1px solid #ddd;
   border-radius: 4px;
-}
-
-/* Styling tulisan di header kiri */
-.header-left {
-  font-weight: bold;
-}
-
-/* Styling area kanan (username + tombol logout) */
-.header-right {
-  display: flex;
-  align-items: center;
-  gap: 10px;
 }
 
 /* Tombol Logout */

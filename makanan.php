@@ -14,7 +14,7 @@ if (!isset($_SESSION['username'])) {
     <title>Daftar Makanan Khas Sulawesi Selatan</title>
     <link rel="stylesheet" href="assets/style.css" />
   </head>
-  
+
   <body>
     <header>
         <div class="header-left">Makanan Khas</div>
@@ -33,7 +33,7 @@ if (!isset($_SESSION['username'])) {
             <li><a href="#">Dashboard</a></li>
             <li><a href="tabel-makanan.html">Makanan Khas</a></li>
             <li><a href="obyek-wisata.html">Objek Wisata</a></li>
-            <li><a href="logout.php">Keluar</a></li>
+            <li><a href="index.php">Keluar</a></li>
           </ul>
         </nav>
       </aside>
